@@ -1101,7 +1101,10 @@ dns:
     - 223.5.5.5
     - 114.114.114.114
     - 8.8.8.8
+    - 1.1.1.1
   nameserver:
+    - https://8.8.8.8/dns-query
+    - https://1.1.1.1/dns-query
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
   fallback:
@@ -1876,7 +1879,10 @@ dns:
     - 223.5.5.5
     - 114.114.114.114
     - 8.8.8.8
+    - 1.1.1.1
   nameserver:
+    - https://8.8.8.8/dns-query
+    - https://1.1.1.1/dns-query
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
   fallback:
